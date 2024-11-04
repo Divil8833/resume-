@@ -1,0 +1,119 @@
+@media screen and (min-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #548687 ;
+    }
+    div.container{
+        /* width: 950px; */
+        width: 130vh;
+        /* height: 500px; */
+        height: 70vh;
+        margin-top:50px ;
+        margin-left:150px ;
+        background-color:rgb(47, 182, 255) ;
+        border: 2px solid black;
+        border-radius: 25px;
+        float: left;
+    }
+    div.box{
+        /* width: 925px; */
+        width: 123vh;
+        /* height: 450px; */
+        height: 63vh;
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+        background-color:rgb(47, 182, 255) ;
+        border: 2px solid rgba(red, green, blue, .0) ;
+        /* border-radius: 25px; */
+        overflow: auto;
+        
+        
+    }
+    p{
+        width: 60px;
+        float: left;
+        font-size: 25px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        margin-top: 475px;
+        margin-left: 5px;
+        float: left;
+        border: 2px solid;
+        border-radius: 15px;
+        font-size: 20px;
+    }
+    h1{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #548687 ;
+    }
+    div.container{
+        /* width: 385px; */
+        width: 41vh;
+        /* height: 250px; */
+        height: 27vh;
+        margin-top:5vmin ;
+        margin-left:12.5vmin ;
+        background-color:rgb(47, 182, 255) ;
+        /* background-color: #fff; */
+        border: 2px solid black;
+        border-radius: 5vmin;
+        float: left;
+    }
+    div.box{
+        /* width: 360px; */
+        width: 38.8vh;
+        /* height: 220px; */
+        height: 23.5vh;
+        float: left;
+        margin-top: 3.5vmin;
+        margin-left: 3.25vmin;
+        background-color:rgb(47, 182, 255) ;
+        border: 2px solid rgba(red, green, blue, .0);
+        /* border-radius: 25px; */
+        overflow: auto;
+        
+        
+    }
+    p{
+        width: 60px;
+        float: left;
+        font-size: 20px;
+        margin-left: auto;
+    }
+    button{
+        /* width: 100px; */
+        width: 24vmin;
+        /* height: 30px; */
+        height: 7vmin;
+        margin-top: 3vmin;
+        margin-left: 6.75vmin;
+        float: left;
+        border: 2px solid;
+        border-radius: 5vmin;
+        font-size: 20px;
+    }
+    
+}
+h1{
+    margin-top: 110px;
+    margin-left: 50px;
+    color: yellow;
+    float: left;
+    font-size: 17px;
+    visibility: hidden;
+}
